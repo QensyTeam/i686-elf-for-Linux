@@ -11,7 +11,7 @@ CROSS_DIR=$HOME/opt/cross
 
 # Пакеты, необходимые для сборки
 sudo apt update
-sudo apt install -y build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo wget mtools xorriso qemu-system
+sudo apt install -y build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo wget mtools xorriso qemu-system grub-pc-bin
 
 # Создание рабочих директорий
 mkdir -p $SRC_DIR
