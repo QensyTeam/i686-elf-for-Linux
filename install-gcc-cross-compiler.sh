@@ -120,7 +120,6 @@ case $action in
         rm -rf $SRC_DIR/*.tar.gz
         echo "Удаление мусора..."
         rm -rf $SRC_DIR
-        rm -rf $CROSS_DIR
         ;;
     4)
         # Переустановка компилятора
